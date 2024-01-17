@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export default function ListItems({ name, eamil, imgpath }) {
+export default function ListItem({ name, eamil, imgpath }) {
   return (
     <div className='flex items-center p-2 h-fit w-fit'>
       <Image
