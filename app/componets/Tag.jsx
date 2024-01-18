@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Tag({ imagepath, userName, onCLickFunc }) {
   return (
-    <div className='flex flex-row items-center min-w-fit h-8 m-2 rounded-full bg-slate-300'>
+    <div className='flex flex-row items-center min-w-fit h-8 m-2 rounded-full bg-slate-300 hover:border-2 border-blue-800'>
       <Image
         className='rounded-full'
         src={imagepath}
